@@ -1,0 +1,20 @@
+.balance-amount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--padding-small)
+    
+}
+
+.balance-remaining {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+}
+
+.balance-cash-limit {
+    color: var(--color-dark-green);
+}

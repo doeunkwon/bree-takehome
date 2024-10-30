@@ -1,0 +1,19 @@
+.panel {
+    background-color: var(--color-cream-glass);
+    backdrop-filter: var(--blur-radius);
+    border-radius: var(--border-radius-large);
+    border: var(--border-config);
+    padding: var(--padding-large);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--padding-large);
+}
+
+@media (max-width: 768px) {
+  .panel {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

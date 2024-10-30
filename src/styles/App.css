@@ -1,0 +1,81 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: calc(100vw - (var(--padding-large) * 2));
+  height: calc(100vh - (var(--padding-large) * 2));
+  background: radial-gradient(at center, var(--color-light-green), var(--color-cream));
+  padding: var(--padding-large);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: var(--padding-large);
+}
+
+.banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: var(--padding-medium);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: slideDown 0.5s ease-out;
+  z-index: 1001;
+}
+
+.banner.success {
+  background-color: var(--color-light-green);
+  color: var(--color-dark-green);
+}
+
+.banner.error {
+  background-color: var(--color-light-red);
+  color: var(--color-dark-red);
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+
+  .App {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: calc(100% - (var(--padding-large) * 2));
+    height: calc(100% - (var(--padding-large) * 2));
+    background: radial-gradient(at center, var(--color-light-green), var(--color-cream));
+    padding: var(--padding-large);
+  }
+
+  .app-container {
+    flex-direction: column;
+    height: auto;
+    gap: var(--padding-large);
+  }
+
+}

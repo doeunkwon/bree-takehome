@@ -1,0 +1,27 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100vw - (var(--padding-large) * 2));
+    height: calc(100vh - (var(--padding-large) * 2));
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: var(--padding-large);
+}
+  
+.modal-popup {
+    background-color: var(--color-cream);
+    padding: var(--padding-medium);
+    border-radius: var(--border-radius-medium);
+    border: var(--border-config);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--padding-medium);
+}

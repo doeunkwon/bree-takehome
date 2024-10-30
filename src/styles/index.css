@@ -1,0 +1,115 @@
+:root {
+  --padding-small: 8px;
+  --padding-medium: 16px;
+  --padding-large: 24px;
+
+  --border-radius-small: 4px;
+  --border-radius-medium: 8px;
+  --border-radius-large: 16px;
+  --border-radius-full: 100px;
+
+  --border-config: 2px solid white;
+
+  --box-shadow:  0 5px 10px rgba(0, 0, 0, 0.05);
+
+  --font-size-small: 15px;
+  --font-size-medium: 20px;
+  --font-size-large: 30px;
+  --font-size-xlarge: 45px;
+  --font-size-xxlarge: 80px;
+
+  --color-dark-green: #347928;
+  --color-light-green: #C0EBA6;
+  --color-cream: #FFFBE6;
+  --color-gold: #FCCD2A;
+  --color-light-red: #F28585;
+  --color-dark-red: #721c24;
+
+  --color-cream-glass: rgba(255, 251, 230, 0.65);
+  --blur-radius: blur(20px);
+  
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  font-size: var(--font-size-xxlarge);
+  line-height: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: var(--font-size-xlarge);
+  line-height: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: var(--font-size-large);
+  line-height: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+h4, h5, h6 {
+  font-size: var(--font-size-medium);
+  line-height: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: var(--font-size-small);
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border-radius: var(--border-radius-full);
+  border: none;
+  padding: var(--padding-small) var(--padding-medium);
+  font-size: var(--font-size-medium);
+  background-color: var(--color-cream);
+}
+
+.button-primary {
+  border-radius: var(--border-radius-full);
+  border: none;
+  padding: var(--padding-medium) var(--padding-large);
+  font-size: var(--font-size-medium);
+  background-color: var(--color-dark-green);
+  color: var(--color-cream);
+  box-shadow: var(--box-shadow);
+}
+
+.button-secondary {
+  border-radius: var(--border-radius-full);
+  border: none;
+  padding: var(--padding-small) var(--padding-medium);
+  font-size: var(--font-size-medium);
+  background-color: var(--color-cream);
+}
