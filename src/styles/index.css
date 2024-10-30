@@ -112,4 +112,5 @@ input {
   padding: var(--padding-small) var(--padding-medium);
   font-size: var(--font-size-medium);
   background-color: var(--color-cream);
+  color: black;
 }

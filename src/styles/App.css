@@ -28,7 +28,7 @@
   gap: var(--padding-large);
 }
 
-.banner {
+.app-banner {
   position: fixed;
   top: 0;
   left: 0;
@@ -40,12 +40,12 @@
   z-index: 1001;
 }
 
-.banner.success {
+.app-banner.success {
   background-color: var(--color-light-green);
   color: var(--color-dark-green);
 }
 
-.banner.error {
+.app-banner.error {
   background-color: var(--color-light-red);
   color: var(--color-dark-red);
 }

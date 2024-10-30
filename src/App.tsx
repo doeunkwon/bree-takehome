@@ -55,7 +55,7 @@ function App() {
     <main className="App">
       <section className="app-container">
         {showBanner && (
-          <div className={`banner ${isError ? "error" : "success"}`}>
+          <div className={`app-banner ${isError ? "error" : "success"}`}>
             {message}
           </div>
         )}

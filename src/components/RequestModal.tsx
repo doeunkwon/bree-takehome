@@ -16,7 +16,7 @@ function RequestModal({
   return (
     <section className="modal-overlay" onClick={handleOverlayClick}>
       <section className="panel">
-        <h3>How much do you need?</h3>
+        <h3 style={{ textAlign: "center" }}>How much can we help you with?</h3>
         <input
           type="number"
           value={cashAmount}
